@@ -1,4 +1,3 @@
-
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddReverseProxy()//添加ReverseProxy相关服务到DI
