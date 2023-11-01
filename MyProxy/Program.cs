@@ -1,8 +1,8 @@
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddReverseProxy()//添加ReverseProxy相关服务到DI
-                                  //从配置文件中加载ReverseProxy的设置
-    .LoadFromConfig(builder.Configuration.GetSection("ReverseProxy"));
+    .LoadFromConfig(builder.Configuration.GetSection("ReverseProxy"));//从配置文件中加载ReverseProxy的设置
+
 
 var app = builder.Build();
 
