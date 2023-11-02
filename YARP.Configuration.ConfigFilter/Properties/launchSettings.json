@@ -1,0 +1,14 @@
+﻿{
+  "profiles": {
+    "YARP.Configuration.ConfigFilter": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:5067",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "baidu": "https://www.baidu.com"
+      }
+    }
+  }
+}
