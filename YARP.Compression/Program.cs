@@ -40,12 +40,9 @@ app.Run();
 class CustomTransformer : HttpTransformer
 {
     ///<summary>
-    /// A callback that is invoked prior to sending the proxied request. All HttpRequestMessage
-    /// fields are initialized except RequestUri, which will be initialized after the
-    /// callback if no value is provided. The string parameter represents the destination
-    /// URI prefix that should be used when constructing the RequestUri. The headers
-    /// are copied by the base implementation, excluding some protocol headers like HTTP/2
-    /// pseudo headers (":authority").
+    /// 该函数在发送被代理的请求之前被调用。在回调函数中，所有的 HttpRequestMessage 字段都已经被初始化，除了 RequestUri 字段，
+    /// 在回调函数执行后，如果没有提供值，它将被初始化。这里的字符串参数表示在构建 RequestUri 时应该使用的目标 URI 前缀。
+    /// 基础实现会复制头部（headers），但会排除一些协议头部，比如 HTTP/2 伪头部（":authority"）。
     ///</summary>
     ///<param name="httpContext">传入请求</param>
     ///<param name="proxyRequest">传出的代理请求</param>
