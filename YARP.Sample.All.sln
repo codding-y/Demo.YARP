@@ -21,13 +21,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RateLimiting", "RateLimitin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YARP.Auth", "YARP.Auth\YARP.Auth.csproj", "{6607E72C-99B7-49EF-AA34-6DD392A9C3C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YARP.ResponseCaching", "YARP.ResponseCaching\YARP.ResponseCaching.csproj", "{E3869B22-02AB-4CEB-A02D-114BCACB16BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YARP.ResponseCaching", "YARP.ResponseCaching\YARP.ResponseCaching.csproj", "{E3869B22-02AB-4CEB-A02D-114BCACB16BA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CachingAndCompression", "CachingAndCompression", "{04F48344-47F8-4011-8A27-309050AD3B34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Server", "API.Server\API.Server.csproj", "{E42471C5-ED8D-4765-9B39-97328AFEDC8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.Server", "API.Server\API.Server.csproj", "{E42471C5-ED8D-4765-9B39-97328AFEDC8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YARP.Compression", "YARP.Compression\YARP.Compression.csproj", "{BFCE6559-7FC2-4280-B626-DF6DAEA187BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YARP.Compression", "YARP.Compression\YARP.Compression.csproj", "{BFCE6559-7FC2-4280-B626-DF6DAEA187BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YARP.Metrics", "YARP.Metrics\YARP.Metrics.csproj", "{838F714F-025F-4035-B440-FB7DB434D13F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,6 +81,10 @@ Global
 		{BFCE6559-7FC2-4280-B626-DF6DAEA187BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFCE6559-7FC2-4280-B626-DF6DAEA187BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFCE6559-7FC2-4280-B626-DF6DAEA187BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{838F714F-025F-4035-B440-FB7DB434D13F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{838F714F-025F-4035-B440-FB7DB434D13F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{838F714F-025F-4035-B440-FB7DB434D13F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{838F714F-025F-4035-B440-FB7DB434D13F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
